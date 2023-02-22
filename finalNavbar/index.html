@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome version 5 -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+
+
+<body>
+    <nav class="nav_bar">
+        <div>
+            <label for="logo" onclick="myFunction()">Design X</label>
+        </div>
+        <div id="mobile_list" class="list_items_big_screen">
+            <p><a href="index.html">Home</a> </p>
+            <p><a href="about.html">About</a> </p>
+            <p><a href="#">Services</a> </p>
+            <p><a href="#">Contact</a> </p>
+            <p><a href="#">Feedback</a> </p>
+        </div>
+        <div class="mobile_menu">
+            <i class="fas fa-bars" onclick="myFunction()"></i>
+        </div>
+    </nav>
+
+    <section>
+        <h1>hello</h1>
+    </section>
+    <script>
+        function myFunction() {
+            let element = document.getElementById("mobile_list");
+            element.classList.toggle("mystyle");
+        }
+    </script>
+</body>
+
+</html>
