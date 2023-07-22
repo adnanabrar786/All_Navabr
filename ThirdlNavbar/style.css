@@ -19,9 +19,20 @@ body {
     align-items: center;
     padding: 0px 30px;
     color: white;
+
 }
 
 .list_items_big_screen {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_items_big_screen>.right_list {
+    display: flex;
+}
+
+.list_items_big_screen>.left_list {
     display: flex;
 }
 
@@ -75,8 +86,23 @@ body {
         left: 0px;
         background-color: rgb(54, 123, 123);
         align-items: center;
+        justify-content: flex-start;
         flex-direction: column;
         padding-top: 30px;
+    }
+
+    .mystyle>.right_list {
+        text-align: center;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .mystyle>.left_list {
+        text-align: center;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
     }
 
     .mystyle p {
